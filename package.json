@@ -1,0 +1,32 @@
+{
+  "name": "abhay-blog",
+  "version": "1.0.0",
+  "description": "My personal blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abhi-412/blog.git"
+  },
+  "author": "Abhay Pratap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhi-412/blog/issues"
+  },
+  "homepage": "https://github.com/abhi-412/blog#readme",
+  "dependencies": {
+    "abhay-blog": "file:",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.6.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.4"
+  }
+}
